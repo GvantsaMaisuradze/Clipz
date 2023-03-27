@@ -18,7 +18,6 @@ export class ModalService {
       id,
       visible:false
     })
-    console.log(this.modals)
   }
   unregister(id:string){
     this.modals = this.modals.filter(
